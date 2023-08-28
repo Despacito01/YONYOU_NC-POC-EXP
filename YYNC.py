@@ -38,7 +38,7 @@ def poc(target):
                 f.write(target+"\n")
                 return True
         else:
-            print(f"[+] {target} is not vulnable")
+            print(f"[-] {target} is not vulnable")
             return False
 
     except:
