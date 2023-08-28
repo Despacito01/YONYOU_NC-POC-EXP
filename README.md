@@ -10,4 +10,5 @@ UClient 通过嵌入社交协同能力，建立企业用户之间的连接，提
 批量测试网站时只需导入站点的url文档，即可批量测试站点是否具有该漏洞
 ![image](https://github.com/Despacito01/YONYOU_NC-POC-EXP/blob/main/START.png?raw=true)
 ![image](https://github.com/Despacito01/YONYOU_NC-POC-EXP/blob/main/EXP.png?raw=true)
+![image](https://github.com/Despacito01/YONYOU_NC-POC-EXP/blob/main/multiple.png?raw=true)
 ![image](https://github.com/Despacito01/YONYOU_NC-POC-EXP/blob/main/result.png?raw=true)
